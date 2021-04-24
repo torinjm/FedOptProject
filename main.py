@@ -6,7 +6,7 @@ import random
 #   By: Travis Pope, Brent Delia, Torin Maguire, Jonnattan Deleon
 #
 #   This program utilizes an additive homomorphic encryption algorithm which federated learning
-#   utilizes. It applies differential privacy using this technique on the uploaded gradients
+#   uses. It applies differential privacy using this technique on the uploaded gradients
 #   during the training process to achieve the highest accuracy and prevents data from being
 #   compromised.
 #
