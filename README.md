@@ -18,6 +18,6 @@ No data files needed. When running the program, just simply input any two positi
 
 This program utilizes an additive homomorphic encryption algorithm which federated learning uses. It applies differential privacy using this technique on the uploaded gradients during the training process to achieve the highest accuracy and prevents data from being compromised.
 
-The additive homomorphic encryption technique essentially performs the additivity on multiple cipher-texts and decrypts the encrypted results simultaenously. Thus, local users can send encrypted data for processing on a cloud server without revealing any info.
+The additive homomorphic encryption technique essentially performs the additivity on multiple cipher-texts and decrypts the encrypted results simultaneously. Thus, local users can send encrypted data for processing on a cloud server without revealing any info.
 
 The program successfully encrypts/decrypts any two numerical values using the Paillier Cryptosystem, and proves that the additive homomorphic property applies here. This is useful as this sort of technique is applied exactly to the privacy preservation of federated learning.
