@@ -16,7 +16,7 @@ def encrypt(m, n, g):
 
 # decrypts messsage 'c'
 #   c = encrypted message
-#   n = p * q
+#   n = p * q (generated prime numbers)
 #   mu = modular multiplicative inverse
 #   sig = lcm(p-1, q-1)
 def decrypt(c, n, mu, sig):
@@ -25,7 +25,7 @@ def decrypt(c, n, mu, sig):
 
 
 # x = g^sig % n2
-# n = p * q
+# n = p * q (generated prime numbers)
 def L_Func(x, n):
     output = (x - 1)/n
     return output

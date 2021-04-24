@@ -1,4 +1,4 @@
-import paillier as plr
+import Paillier as plr
 import random
 
 
